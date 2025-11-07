@@ -124,19 +124,19 @@
         <div class="box">
             <div class="box1">
                 <span>CHRIS</span><br>
-                Partner<br><br>
+                Client<br><br>
                 Perfect Communication And Exceptional Skills. Has a Nack For Paying Attention To Detail.
             </div>
             
             <div class="box1">
                 <span>PETER</span><br>
-                Manager<br><br>
+                Client<br><br>
                 Did A Great Job. Understood All The Requirements
             </div>
             
             <div class="box1">
                 <span>JANE</span><br>
-                CEO<br><br>
+                Client<br><br>
                 Precious Was Wonderful To Work With. Will Definitely Hire Her Again
             </div>
         </div>
@@ -188,30 +188,9 @@
    
 </body>
 
-<script src="">  // Toggle mobile menu
-        function toggleMenu() {
-            const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('active');
-        }
-
-        // Close menu when clicking on a link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                const navLinks = document.getElementById('navLinks');
-                navLinks.classList.remove('active');
-            });
-        });
-
-        // Close menu when clicking outside
-        document.addEventListener('click', (e) => {
-            const navLinks = document.getElementById('navLinks');
-            const menuToggle = document.querySelector('.menu-toggle');
-            
-            if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
-                navLinks.classList.remove('active');
-            }
-        });
+<script src="script.js">  
 
 </script>
 
 </html>
+
