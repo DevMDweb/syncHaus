@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemi's Portfolio</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav>
+        <div class="container">
+            <div class="logo">SyncHaus</div>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO/PROFILE SECTION
+         ============================================ -->
+    <div class="profile" id="home">
+        <div class="profile-content">
+            <span>PRECIOUS</span>
+            <h1>PROFESSIONAL VIDEO EDITOR</h1>
+            <h3>Making Your Videos Look More Cool</h3>
+            <button onclick="location.href='#contact'">LET'S TALK</button>
+        </div>
+        
+        <div class="img-container">
+            <img src="Kemi.jpg" alt="Precious - Professional Video Editor">
+        </div>
+    </div>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <div class="about" id="about">
+        <h1>ABOUT ME</h1>
+        <p>
+            I am Adigun Precious Oluwakemisola, CEO of SyncHaus. 
+            I'm a creative who can craft visually stunning narratives using tools like CapCut and Filmora. 
+            With a passion for storytelling and a keen eye for detail, I embark on a journey to transform 
+            ordinary footage into extraordinary visual experiences.
+        </p>
+        
+        <!-- Skills Section -->
+        <div class="skills">
+            <ul class="skill">
+                <li><i class="fas fa-video"></i> Cash Cow Editing</li>
+                <li><i class="fas fa-film"></i> Reels Editing</li>
+                <li><i class="fas fa-palette"></i> Logo Animation</li>
+                <li><i class="fas fa-podcast"></i> Podcast Edit</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ============================================
+         PORTFOLIO/EDITS SECTION
+         Replace the src URLs with your actual video links
+         ============================================ -->
+    <div class="edits" id="portfolio">
+        <h1>MY BEST EDITS</h1>
+        
+        <!-- Horizontal Scroll Container for Videos -->
+        <div class="video-scroll-container">
+            <div class="video-box">
+                <!-- Video 1 - Replace with your video URL -->
+                <div class="video-item">
+                    <div class="video-placeholder">
+                        <p>Video 1<br><small>Paste your video embed code here</small></p>
+                    </div>
+                    <!-- Example: <iframe src="YOUR_VIDEO_URL" allowfullscreen></iframe> -->
+                </div>
+                
+                <!-- Video 2 - Replace with your video URL -->
+                <div class="video-item">
+                    <div class="video-placeholder">
+                        <p>Video 2<br><small>Paste your video embed code here</small></p>
+                    </div>
+                </div>
+                
+                <!-- Video 3 - Replace with your video URL -->
+                <div class="video-item">
+                    <div class="video-placeholder">
+                        <p>Video 3<br><small>Paste your video embed code here</small></p>
+                    </div>
+                </div>
+                
+                <!-- Video 4 - Add more as needed -->
+                <div class="video-item">
+                    <div class="video-placeholder">
+                        <p>Video 4<br><small>Paste your video embed code here</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================
+         TESTIMONIALS SECTION
+         ============================================ -->
+    <div class="testimonials" id="testimonials">
+        <h1>TESTIMONIALS</h1>
+        
+        <div class="box">
+            <div class="box1">
+                <span>CHRIS</span><br>
+                Partner<br><br>
+                Perfect Communication And Exceptional Skills. Has a Nack For Paying Attention To Detail.
+            </div>
+            
+            <div class="box1">
+                <span>PETER</span><br>
+                Manager<br><br>
+                Did A Great Job. Understood All The Requirements
+            </div>
+            
+            <div class="box1">
+                <span>JANE</span><br>
+                CEO<br><br>
+                Precious Was Wonderful To Work With. Will Definitely Hire Her Again
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================
+         CONTACT/CTA SECTION
+         ============================================ -->
+    <div class="cta" id="contact">
+        <h1>I AM READY TO CONSULT YOU</h1>
+        
+        <!-- Contact Form -->
+        <div class="form-container">
+            <div class="form-group">
+                <label>My name is</label>
+                <input type="text" class="input" placeholder="Enter your name">
+            </div>
+            
+            <div class="form-group">
+                <label>My email is</label>
+                <input type="email" class="input" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label>I am interested in</label>
+                <textarea class="input" placeholder="Tell me about your project..."></textarea>
+            </div>
+            
+            <button class="submit">SEND MESSAGE</button>
+        </div>
+        
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://x.com/samuel_pre34865" target="_blank" title="X (Twitter)">
+                <i class="fab fa-x"></i>
+            </a>
+            <a href="https://facebook.com/tamara.ebi.433058" target="_blank" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/+2348140555364" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+   
+</body>
+
+<script src="">  // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.getElementById('navLinks');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const navLinks = document.getElementById('navLinks');
+            const menuToggle = document.querySelector('.menu-toggle');
+            
+            if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+</script>
+</html>
