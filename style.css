@@ -245,7 +245,7 @@
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: thin;
-        scrollbar-color: blueviolet rgba(255, 255, 255, 0.1);
+        scrollbar-color: blue;
     }
 
     .video-scroll-container::-webkit-scrollbar {
@@ -589,6 +589,7 @@
         
 
         }
+
 
 
 
