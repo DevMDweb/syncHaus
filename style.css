@@ -20,7 +20,7 @@
     nav {
         position: fixed;
         width: 100%;
-        background-color: rgba(22, 8, 26, 0.95);
+        background-color: #0B3C5D;
         padding: 1rem 2rem;
         backdrop-filter: blur(10px);
         z-index: 1000;
@@ -587,4 +587,5 @@
         .video-item {
             min-width: 280px;
         
+
         }
