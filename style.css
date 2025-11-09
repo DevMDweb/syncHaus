@@ -95,7 +95,7 @@
        HERO/PROFILE SECTION
        ============================================ */
     .profile {
-        background: linear-gradient(135deg, #0B3C5D, #2E6AB0);
+        background: linear-gradient(135deg,#052840, #0F4A7F);
         padding: 8rem 4rem 4rem;
         color: white;
         min-height: 100vh;
@@ -589,6 +589,7 @@
         
 
         }
+
 
 
 
