@@ -284,8 +284,8 @@
     }
 
     .video-item {
-        min-width: 400px;
-        height: 250px;
+     min-width: 400px;
+        height: 200px;
         background-color: rgba(255, 255, 255, 0.1);
         border: 2px solid rgba(255, 255, 255, 0.3);
         border-radius: 10px;
@@ -300,8 +300,8 @@
 
     .video-item video {
         width: 100%;
-        height: auto;
-        object-fit: contain;
+        height: 100%;
+        object-fit: cover;
         border: none;
     }
 
@@ -600,6 +600,4 @@
         }
 
         .video-item {
-            min-width: 280px;
-        
-        }
+            min-width: 280px;}
